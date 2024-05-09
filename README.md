@@ -1,3 +1,3 @@
 # website
 
-The website for oxido playground.
+The website for calcagebra playground.

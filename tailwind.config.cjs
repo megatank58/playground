@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "oxido-light": "#976DD7",
+        "calcagebra-light": "#976DD7",
       },
     },
   },
