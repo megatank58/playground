@@ -27,7 +27,10 @@ export default function Play() {
       await fetch(
         new Request(WORKERS_URL, {
           method: "POST",
-          body: content,
+          body: JSON.stringify({
+            "code": content,
+            "debug": false,
+          }),
         }),
       )
     ).text()
